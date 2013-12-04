@@ -126,11 +126,11 @@ Card
 }
 
 #canvas {
-	width:338px;
-	height:469px;
+	width:510px;
+	height:678px;
 	position:relative;
-	top:33px;
-	left:16px;
+	top:31px;
+	left:14px;
 	z-index:1; /* So we can place the stickers above */
 	overflow:hidden;
 }
