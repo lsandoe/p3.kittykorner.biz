@@ -99,12 +99,12 @@ $('#print-btn').click(function() {
     new_tab_contents += '<head>';
     new_tab_contents += '<link rel="stylesheet" href="css/main.css" type="text/css">'; // Don't forget your CSS so the card looks good in the new tab!
     new_tab_contents += '<link rel="stylesheet" href="css/features.css" type="text/css">';
-	new_tab_contents += '<style> body {margin-left: 65px; margin-top: 100px;} </style>';
+	new_tab_contents += '<style> body {margin-left: 65px; margin-top: 60px;} #hh {margin-left: 50px;} #made {margin-left: 40px;}</style>';
     new_tab_contents += '</head>';
     new_tab_contents += '<body>'; //this works but is inline style="margin-left: 65px; margin-top: 100px;"
-	new_tab_contents += '<img src="images/happyholidays.png" alt="Happy Holidays"/>';
+	new_tab_contents += '<img id="hh" src="images/happyholidays.png" alt="Happy Holidays"/>';
     new_tab_contents += canvas; // Here's where we add the card to our HTML for the new tab
-	new_tab_contents += '<img src="images/made.png" alt="made especially for you by hand"/>';
+	new_tab_contents += '<img id="made" src="images/made.png" alt="made especially for you by hand"/>';
     new_tab_contents += '</body></html>';
     
 	// Ok, our card is ready to go, we just need to work on opening the tab
