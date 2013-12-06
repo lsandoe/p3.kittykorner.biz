@@ -77,77 +77,21 @@ Stickers
     height: auto;
 }
 
-img.bighat {
-	max-width: 10%;
-    height: auto;
-}
-
-
-img.longnose {
-	max-width: 7%;
-    height: auto;
-}
-
-img.bignose {
-	max-width: 10%;
-    height: auto;
-}
-
-img.weeboots {
-	max-width: 50%;
-    height: auto;
-}
-
-img.armware {
-	max-width: 40%;
-    height: auto;
-}
-
-img.eyewareaccessories {
-	max-width: 30%;
-    height: auto;
-}
-
-img.earware {
-	max-width: 40%;
-    height: auto;
-}
-
-img.eyeware {
-	max-width: 30%;
-    height: auto;
-}
-
-img.eyebrowware {
-	max-width: 50%;
-    height: auto;
-}
-
-img.noseware {
-	max-width: 40%;
-    height: auto;
-}
-
-img.footware {
-	max-width: 40%;
-    height: auto;
-}
-
-img.clothingware {
-	max-width: 18%;
-    height: auto;
-}
 
 .stickers_on_card {
 	position:absolute;
 	top:0px;
-	left:0px;
+	left:10px;
 	max-width: 100%;
     height: auto;
 	cursor:move;
 }
 
-
+#potatotemplate.stickers_on_card {
+	position:absolute;
+	top:168px;
+	left:145px;
+}
 /*-------------------------------------------------------------------------------------------------
 Message
 -------------------------------------------------------------------------------------------------*/
@@ -175,6 +119,5 @@ Recipient
 .error {
 	color:red;
 }
-
 
 
